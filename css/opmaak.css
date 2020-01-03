@@ -1,0 +1,57 @@
+/* CSS bij CSS Position */
+
+/*
+body {
+    padding: 100px;
+    margin: 100px;
+}
+
+section {
+    width: 300px;
+    height: 150px;
+}
+
+section#een { 
+    background: red; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+section#twee { 
+    background: green; 
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    z-index: 0;
+}
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    width: 600px;
+    background: silver;
+    padding: 2em;
+    position: relative;
+}
+
+section img { 
+    width: 180px; 
+    float: left;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+
+
+
+
+
